@@ -49,12 +49,12 @@ local TweenService  = game:GetService("TweenService")
     Settings = {}
     
     local Locations = {
-        ['Deliver the item to The Southern Water Tribe'] = CFrame.new(-1809, 271, 3006),
+        ['Deliver the item to Water City'] = CFrame.new(-1809, 271, 3006),
         ['Deliver the item to Ice Village'] = CFrame.new(-2904, 224, 2018),
         ['Deliver the item to Pebble Village'] = CFrame.new(785, -22, 301),
-        ['Deliver the item to The Southern Air Temple'] = CFrame.new(-4854, 270, 632),
-        ['Deliver the item to The Earth Kingdom'] = CFrame.new(-23, -40, -866),
-        ['Deliver the item to The Fire Nation'] = CFrame.new(-1830, -20, -1861)
+        ['Deliver the item to Grand Temple of Air'] = CFrame.new(-4854, 270, 632),
+        ['Deliver the item to Shang Sen Sei'] = CFrame.new(-23, -40, -866),
+        ['Deliver the item to Flame City'] = CFrame.new(-1830, -20, -1861)
     }
     
     
