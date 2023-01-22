@@ -87,8 +87,8 @@ local TweenService  = game:GetService("TweenService")
                     moveto(Locations[getQuest()],Settings.TweenSpeed or 500)
                 elseif plr.PlayerGui.Quest:FindFirstChild("WhatToKill") then
                     local button = plr.PlayerGui.Quest.Quit
-                    mousemoveabs(button.AbsolutePosition.X + button.AbsoluteSize.X / 2, button.AbsolutePosition.Y + 50)
-                    mousemoveabs(button.AbsolutePosition.X + button.AbsoluteSize.X / 2, button.AbsolutePosition.Y + 49)
+                    mousemoveabs(button.AbsolutePosition.X + button.AbsoluteSize.X / 2, button.AbsolutePosition.Y + 0.039)
+                    mousemoveabs(button.AbsolutePosition.X + button.AbsoluteSize.X / 2, button.AbsolutePosition.Y + 0.396)
                     wait(0.1)
                     mouse1click()
                 end
